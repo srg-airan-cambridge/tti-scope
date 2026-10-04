@@ -1,0 +1,1498 @@
+{
+"_kernel_receive_persistent_": [
+"cuPHY-CP/aerial-fh-driver/app/fh_generator/src/cuda_kernels.cu",
+80
+],
+"_kernel_receive_slot_": [
+"cuPHY-CP/aerial-fh-driver/app/fh_generator/src/cuda_kernels.cu",
+125
+],
+"addChannelEstErrorKernel": [
+"cuMAC/examples/multiCellMuMimoScheduler/mMimoNetwork.cu",
+818
+],
+"add_gaussian_noise": [
+"testBenches/chanModels/src/gauNoiseAdder.cuh",
+54
+],
+"address_pairs_compare": [
+"cuPHY/test/error_correction/test_ldpc_internal_app_addr.cu",
+100
+],
+"address_pairs_compare_desc": [
+"cuPHY/test/error_correction/test_ldpc_internal_app_addr.cu",
+125
+],
+"applyWindow": [
+"testBenches/chanModels/src/ofdm_src/ofdmMod.cu",
+165
+],
+"autoScalingKernel": [
+"cuMAC/examples/channInput/channInput_src/channInput.cu",
+829
+],
+"bfc_mmse_coef_comp_kernel_v0": [
+"cuPHY/src/cuphy/bfc/bfc.cu",
+614
+],
+"bfwMmseCoefCompKernel_v1": [
+"cuPHY/src/cuphy/bfc/bfc.cu",
+1344
+],
+"block_fft_kernel": [
+"cuPHY/src/cuphy/prach_receiver/prach_receiver.cu",
+139
+],
+"bluestein_Idft_kernel": [
+"cuPHY/src/cuphy/channel_eq/channel_eq.cu",
+3904
+],
+"bluestein_workspace_kernel": [
+"cuPHY/src/cuphy/channel_eq/channel_eq.cu",
+6630
+],
+"calClusterRayKernel": [
+"testBenches/chanModels/src/sls_chan_src/sls_chan_small_scale_GPU.cu",
+573
+],
+"calLinkParamKernel": [
+"testBenches/chanModels/src/sls_chan_src/sls_chan_large_scale_GPU.cu",
+75
+],
+"cellAssocParaCellKernel": [
+"cuMAC/src/4T4R/cellAssociation.cuh",
+73
+],
+"cellAssocParaPrbgCellKernel": [
+"cuMAC/src/4T4R/cellAssociation.cuh",
+70
+],
+"cfoTaEstLowMimoKernel": [
+"cuPHY/src/cuphy/cfo_ta_est/cfo_ta_est.cu",
+675
+],
+"chEstFilterNoDftSOfdmDispatchKernel": [
+"cuPHY/src/cuphy/ch_est/ch_est.cu",
+1283
+],
+"chEstFilterPrgNoDftSOfdmDispatchKernel": [
+"cuPHY/src/cuphy/ch_est/ch_est.cu",
+1595
+],
+"compCwTreeTypesKernel": [
+"cuPHY/src/cuphy/comp_cwTreeTypes/comp_cwTreeTypes.cu",
+571
+],
+"compress": [
+"cuPHY-CP/compression_decompression/comp_decomp_examples/oran.cu",
+45
+],
+"compress_QAM_lists": [
+"cuPHY-CP/compression_decompression/comp_decomp_lib/include/QAM_comp.cuh",
+26
+],
+"convertSctoPrbg": [
+"testBenches/chanModels/src/fastFadingCommon.cu",
+1437
+],
+"convert_bits_to_bits_kernel": [
+"cuPHY/src/cuphy/convert_tensor.cu",
+88
+],
+"convert_from_bits_kernel": [
+"cuPHY/src/cuphy/convert_tensor.cu",
+177
+],
+"convert_kernel": [
+"cuPHY/src/cuphy/convert_tensor.cu",
+26
+],
+"convert_to_bits_kernel": [
+"cuPHY/src/cuphy/convert_tensor.cu",
+250
+],
+"copyKernel": [
+"cuPHY/src/cuphy/copy_kernel.cu",
+38
+],
+"crcDownlinkPdschCodeBlocksKernel": [
+"cuPHY/src/cuphy/crc/crc.cu",
+376
+],
+"crcDownlinkPdschTransportBlockKernel": [
+"cuPHY/src/cuphy/crc/crc.cu",
+635
+],
+"crcUplinkPuschCodeBlocksKernel": [
+"cuPHY/src/cuphy/crc/crc.cu",
+56
+],
+"crcUplinkPuschTransportBlockKernel": [
+"cuPHY/src/cuphy/crc/crc.cu",
+191
+],
+"csirsRxChEstKernel": [
+"cuPHY/src/cuphy/csirs_rx/csirs_rx.cu",
+34
+],
+"cuphy_rng_init": [
+"cuPHY/src/cuphy/rng/rng.cu",
+262
+],
+"de_rate_matching_clamp_buffer": [
+"cuPHY/src/cuphy/rate_matching/rate_matching.cu",
+875
+],
+"de_rate_matching_global2": [
+"cuPHY/src/cuphy/rate_matching/rate_matching.cu",
+690
+],
+"de_rate_matching_reset_buffer": [
+"cuPHY/src/cuphy/rate_matching/rate_matching.cu",
+770
+],
+"decompress": [
+"cuPHY-CP/compression_decompression/comp_decomp_examples/oran.cu",
+80
+],
+"decompress_QAM_lists": [
+"cuPHY-CP/compression_decompression/comp_decomp_lib/include/QAM_decomp.cuh",
+26
+],
+"delay_kernel_us": [
+"cuPHY/examples/common/util.cu",
+63
+],
+"delay_ns_wait_until": [
+"cuPHY/examples/common/util.cu",
+77
+],
+"descrambleKernel": [
+"cuPHY/src/cuphy/descrambling/descrambling.cu",
+35
+],
+"deviceGraphLaunchKernel": [
+"cuPHY/src/cuphy/pusch_start_kernels.cu",
+98
+],
+"dl_rate_matching": [
+"cuPHY/src/cuphy/dl_rate_matching/dl_rate_matching.cu",
+1953
+],
+"dummy": [
+"testBenches/chanModels/examples/tdl_chan/dummy.cu",
+18
+],
+"emptyKernel": [
+"cuPHY/test/criticalPathCudaApi/criticalPathCudaApi.cu",
+136
+],
+"empty_kernel": [
+"cuPHY/examples/common/util.cu",
+131
+],
+"encodeRateMatchKernel": [
+"cuPHY/src/cuphy/polar_encoder/polar_encoder.cu",
+1000
+],
+"encodeRateMatchMultipleDCIsKernel": [
+"cuPHY/src/cuphy/polar_encoder/polar_encoder.cu",
+1034
+],
+"encodeRateMatchMultipleSSBsKernel": [
+"cuPHY/src/cuphy/polar_encoder/polar_encoder.cu",
+1181
+],
+"eqMmseCoefCompHighMimoKernel": [
+"cuPHY/src/cuphy/channel_eq/channel_eq.cu",
+1725
+],
+"eqMmseCoefCompMassiveMimoKernel_v1": [
+"cuPHY/src/cuphy/channel_eq/channel_eq.cu",
+1778
+],
+"eqMmseSoftDemapAfterDftKernel": [
+"cuPHY/src/cuphy/channel_eq/channel_eq.cu",
+4754
+],
+"eqMmseSoftDemapKernel": [
+"cuPHY/src/cuphy/channel_eq/channel_eq.cu",
+4732
+],
+"eqMmseSoftDemapKernel_64R": [
+"cuPHY/src/cuphy/channel_eq/channel_eq.cu",
+4774
+],
+"extractChestMlOutputsKernel": [
+"cuPHY/src/cuphy/ch_est/ch_est_trtengine_pre_post_converion.cu",
+116
+],
+"fast_fading_fft_kernel": [
+"testBenches/chanModels/src/fastFadingCommon.cu",
+658
+],
+"fast_fading_fft_kernel_PrbgOnly": [
+"testBenches/chanModels/src/fastFadingCommon.cu",
+799
+],
+"fast_fading_fft_kernel_PrgbOnly": [
+"testBenches/chanModels/src/fastFadingCommon.cuh",
+308
+],
+"fp32tofp16": [
+"cuPHY-CP/compression_decompression/comp_decomp_examples/QAM_test.cu",
+42
+],
+"fused_dl_rm_and_modulation": [
+"cuPHY/src/cuphy/dl_rate_matching/dl_rate_matching.cu",
+1457
+],
+"fused_dmrs": [
+"cuPHY/src/cuphy/pdsch_dmrs/pdsch_dmrs.cu",
+261
+],
+"gemm_kernel": [
+"cuMAC/examples/muMimoUeGrpL2Integration/simple_gemm_cfp16.cu",
+29
+],
+"gemm_kernel_scale": [
+"cuMAC/examples/muMimoUeGrpL2Integration/simple_gemm_cfp16.cu",
+92
+],
+"genCdlMulti5TermsKernel": [
+"testBenches/chanModels/src/cdl_chan_src/cdl_chan.cu",
+693
+],
+"genCdlTimeChanCoeKernel": [
+"testBenches/chanModels/src/cdl_chan_src/cdl_chan.cu",
+861
+],
+"genChan64TrKernel": [
+"cuMAC/examples/multiCellMuMimoScheduler/mMimoNetwork.cu",
+882
+],
+"genChann4TrKernel": [
+"cuMAC/examples/network.cu",
+3869
+],
+"genCsirsReMap": [
+"cuPHY/src/cuphy/pdsch_dmrs/pdsch_dmrs.cu",
+512
+],
+"genCsirsTfSignalKernel": [
+"cuPHY/src/cuphy/csirs/csirs_tf_signal.cu",
+124
+],
+"genFreqChanCoeKernel_runMode1": [
+"testBenches/chanModels/src/fastFadingCommon.cu",
+1139
+],
+"genFreqChanCoeKernel_runMode2": [
+"testBenches/chanModels/src/fastFadingCommon.cu",
+1290
+],
+"genPdcchTfSignalKernel": [
+"cuPHY/src/cuphy/pdcch/embed_pdcch_tf_signal.cu",
+351
+],
+"genScramblingKernel": [
+"cuPHY/src/cuphy/csirs/csirs_tf_signal.cu",
+103
+],
+"genScramblingSeqKernel": [
+"cuPHY/src/cuphy/pdcch/embed_pdcch_tf_signal.cu",
+328
+],
+"genSrsChanEstGpuKernel": [
+"cuMAC/examples/network.cu",
+3852
+],
+"genSrsTx": [
+"cuPHY/src/cuphy/srstx/srstx_tf_signal.cu",
+277
+],
+"genTdlTimeChanCoeKernel": [
+"testBenches/chanModels/src/tdl_chan_src/tdl_chan.cuh",
+165
+],
+"generateCFRKernel_runMode1": [
+"testBenches/chanModels/src/sls_chan_src/sls_chan_small_scale_GPU.cu",
+1588
+],
+"generateCFRKernel_runMode23": [
+"testBenches/chanModels/src/sls_chan_src/sls_chan_small_scale_GPU.cu",
+1779
+],
+"generateCFRKernel_runMode4": [
+"testBenches/chanModels/src/sls_chan_src/sls_chan_small_scale_GPU.cu",
+1971
+],
+"generateCIRKernel": [
+"testBenches/chanModels/src/sls_chan_src/sls_chan_small_scale_GPU.cu",
+784
+],
+"generateSingleCRNKernel": [
+"testBenches/chanModels/src/sls_chan_src/sls_chan_large_scale_GPU.cu",
+68
+],
+"getThreadsPerFreqBin": [
+"cuPHY/src/cuphy/channel_eq/channel_eq.cu",
+3310
+],
+"get_ptimer_kernel": [
+"cuPHY/examples/common/util.cu",
+88
+],
+"get_sm_id_kernel": [
+"cuPHY/examples/common/util.cu",
+141
+],
+"gpu_comm_pre_prepare_send_doca": [
+"cuPHY-CP/aerial-fh-driver/lib/gpu_comm_doca.cu",
+181
+],
+"gpu_comm_prepare_send_doca": [
+"cuPHY-CP/aerial-fh-driver/lib/gpu_comm_doca.cu",
+527
+],
+"gpu_comm_prepare_send_doca_nonEmpw": [
+"cuPHY-CP/aerial-fh-driver/lib/gpu_comm_doca.cu",
+751
+],
+"gpu_comm_trigger_send_doca_cx6": [
+"cuPHY-CP/aerial-fh-driver/lib/gpu_comm_doca.cu",
+979
+],
+"gpu_comm_trigger_send_doca_cx7": [
+"cuPHY-CP/aerial-fh-driver/lib/gpu_comm_doca.cu",
+996
+],
+"gpu_comm_trigger_send_doca_nonEmpw_cx7": [
+"cuPHY-CP/aerial-fh-driver/lib/gpu_comm_doca.cu",
+1030
+],
+"gpu_copy_avgRates": [
+"cuMAC-CP/src/cumac_cuda.cu",
+63
+],
+"gpu_copy_cell_bufs": [
+"cuMAC-CP/src/cumac_cuda.cu",
+276
+],
+"gpu_copy_tbErrLast": [
+"cuMAC-CP/src/cumac_cuda.cu",
+83
+],
+"gpu_to_lower_case": [
+"cuPHY-CP/gt_common_libs/nvIPC/tests/cuda/test_cuda.cu",
+52
+],
+"gpucomm_ring_doorbell_per_cell": [
+"cuPHY-CP/aerial-fh-driver/lib/gpu_comm_doca.cu",
+943
+],
+"graphs_empty_kernel": [
+"cuPHY/src/cuphy/empty_kernels.cu",
+34
+],
+"graphs_empty_kernel_1_grid_constant_arg_32B": [
+"cuPHY/src/cuphy/empty_kernels.cu",
+84
+],
+"graphs_empty_kernel_1_grid_constant_arg_48B": [
+"cuPHY/src/cuphy/empty_kernels.cu",
+90
+],
+"graphs_empty_kernel_1_grid_constant_arg_T": [
+"cuPHY/src/cuphy/empty_kernels.cu",
+96
+],
+"graphs_empty_kernel_1_ptr_arg": [
+"cuPHY/src/cuphy/empty_kernels.cu",
+39
+],
+"graphs_empty_kernel_1_ptr_arg_1_grid_constant_arg_T": [
+"cuPHY/src/cuphy/empty_kernels.cu",
+102
+],
+"graphs_empty_kernel_2_ptr_arg": [
+"cuPHY/src/cuphy/empty_kernels.cu",
+44
+],
+"graphs_empty_kernel_3_ptr_arg": [
+"cuPHY/src/cuphy/empty_kernels.cu",
+49
+],
+"graphs_empty_kernel_4_ptr_arg": [
+"cuPHY/src/cuphy/empty_kernels.cu",
+54
+],
+"graphs_empty_kernel_5_ptr_arg": [
+"cuPHY/src/cuphy/empty_kernels.cu",
+59
+],
+"graphs_empty_kernel_6_ptr_arg": [
+"cuPHY/src/cuphy/empty_kernels.cu",
+64
+],
+"graphs_empty_kernel_7_ptr_arg": [
+"cuPHY/src/cuphy/empty_kernels.cu",
+69
+],
+"graphs_empty_kernel_8_ptr_arg": [
+"cuPHY/src/cuphy/empty_kernels.cu",
+74
+],
+"graphs_empty_kernel_9_ptr_arg": [
+"cuPHY/src/cuphy/empty_kernels.cu",
+79
+],
+"initCurandStatesKernel": [
+"testBenches/chanModels/src/sls_chan_src/sls_chan.cu",
+27
+],
+"initUncompressed": [
+"cuPHY-CP/compression_decompression/comp_decomp_examples/barsync.cu",
+141
+],
+"init_curand": [
+"cuMAC/examples/network.cu",
+3862
+],
+"init_curand_states": [
+"testBenches/chanModels/src/gauNoiseAdder.cuh",
+50
+],
+"kCondSetHandle": [
+"cuPHY/src/cuphy/empty_kernels.cu",
+109
+],
+"kDeviceGraphLauncher": [
+"cuPHY/src/cuphy/empty_kernels.cu",
+121
+],
+"kcomp": [
+"cuPHY/test/bfw_compress/blockFP_test.cu",
+56
+],
+"kdecomp": [
+"cuPHY/test/bfw_compress/blockFP_test.cu",
+104
+],
+"kernel_adler32": [
+"cuPHY-CP/ru-emulator/ru_emulator/cuda_kernel.cu",
+23
+],
+"kernel_check_crc": [
+"cuPHY-CP/cuphydriver/src/common/generic_cuda_kernels.cu",
+255
+],
+"kernel_compare": [
+"cuPHY-CP/cuphydriver/src/common/generic_cuda_kernels.cu",
+220
+],
+"kernel_compress": [
+"cuPHY-CP/cuphydriver/src/common/comp_kernel.cuh",
+26
+],
+"kernel_copy": [
+"cuPHY-CP/cuphydriver/src/common/generic_cuda_kernels.cu",
+366
+],
+"kernel_loader_test": [
+"cuPHY/test/error_correction/test_ldpc_internal_loader.cu",
+39
+],
+"kernel_mod_compression": [
+"cuPHY-CP/cuphydriver/src/common/comp_kernel.cuh",
+77
+],
+"kernel_order": [
+"cuPHY-CP/cuphydriver/src/uplink/order_cuda_kernels.cu",
+6187
+],
+"kernel_order_mb_one_ch": [
+"cuPHY-CP/cuphydriver/src/uplink/order_cuda_kernels.cu",
+6928
+],
+"kernel_order_mb_two_ch": [
+"cuPHY-CP/cuphydriver/src/uplink/order_cuda_kernels.cu",
+7145
+],
+"kernel_read": [
+"cuPHY-CP/cuphydriver/src/common/generic_cuda_kernels.cu",
+103
+],
+"kernel_tb_scan": [
+"cuPHY/test/error_correction/test_ldpc_internal_loader.cu",
+254
+],
+"kernel_wait_eq": [
+"cuPHY-CP/cuphydriver/src/common/generic_cuda_kernels.cu",
+166
+],
+"kernel_wait_geq": [
+"cuPHY-CP/cuphydriver/src/common/generic_cuda_kernels.cu",
+202
+],
+"kernel_wait_neq": [
+"cuPHY-CP/cuphydriver/src/common/generic_cuda_kernels.cu",
+184
+],
+"kernel_wait_update": [
+"cuPHY-CP/cuphydriver/src/common/generic_cuda_kernels.cu",
+145
+],
+"kernel_write": [
+"cuPHY-CP/cuphydriver/src/common/generic_cuda_kernels.cu",
+77
+],
+"ldpc2_BG1_reg_box_plus": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_box_plus.cu",
+140
+],
+"ldpc2_BG1_reg_box_plus_tb": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_box_plus.cu",
+231
+],
+"ldpc2_BG1_reg_index_fp_desc_dyn": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_desc_dyn.cu",
+146
+],
+"ldpc2_BG1_reg_index_fp_desc_dyn_fp32": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_desc_dyn.cu",
+328
+],
+"ldpc2_BG1_reg_index_fp_desc_dyn_row_dep": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_desc_dyn_row_dep.cu",
+142
+],
+"ldpc2_BG1_reg_index_fp_desc_dyn_row_dep_tb": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_desc_dyn_row_dep.cu",
+229
+],
+"ldpc2_BG1_reg_index_fp_desc_dyn_small": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_desc_dyn_small.cu",
+116
+],
+"ldpc2_BG1_reg_index_fp_desc_dyn_small_fp32": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_desc_dyn_small.cu",
+356
+],
+"ldpc2_BG1_reg_index_fp_desc_dyn_small_tb": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_desc_dyn_small.cu",
+236
+],
+"ldpc2_BG1_reg_index_fp_desc_dyn_small_tb_fp32": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_desc_dyn_small.cu",
+475
+],
+"ldpc2_BG1_reg_index_fp_desc_dyn_tb": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_desc_dyn.cu",
+237
+],
+"ldpc2_BG1_reg_index_fp_desc_dyn_tb_fp32": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_desc_dyn.cu",
+419
+],
+"ldpc2_BG1_reg_index_fp_dp_desc_dyn_row_dep": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_dp_desc_dyn_row_dep.cu",
+156
+],
+"ldpc2_BG1_reg_index_fp_dp_desc_dyn_row_dep_fp32": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_dp_desc_dyn_row_dep.cu",
+339
+],
+"ldpc2_BG1_reg_index_fp_dp_desc_dyn_row_dep_tb": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_dp_desc_dyn_row_dep.cu",
+247
+],
+"ldpc2_BG1_reg_index_fp_dp_desc_dyn_row_dep_tb_fp32": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_dp_desc_dyn_row_dep.cu",
+430
+],
+"ldpc2_BG1_reg_index_fp_x2_desc_dyn": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_x2_desc_dyn.cu",
+145
+],
+"ldpc2_BG1_reg_index_fp_x2_desc_dyn_tb": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_x2_desc_dyn.cu",
+235
+],
+"ldpc2_BG1_shm_index_fp_desc_dyn": [
+"cuPHY/src/cuphy/error_correction/ldpc2_shm_index_fp_desc_dyn.cu",
+174
+],
+"ldpc2_BG1_shm_index_fp_desc_dyn_tb": [
+"cuPHY/src/cuphy/error_correction/ldpc2_shm_index_fp_desc_dyn.cu",
+267
+],
+"ldpc2_BG1_split_index_fp_x2_desc_dyn": [
+"cuPHY/src/cuphy/error_correction/ldpc2_split_index_fp_x2_desc_dyn.cu",
+221
+],
+"ldpc2_BG1_split_index_fp_x2_desc_dyn_tb": [
+"cuPHY/src/cuphy/error_correction/ldpc2_split_index_fp_x2_desc_dyn.cu",
+311
+],
+"ldpc2_BG2_reg_box_plus": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_box_plus.cu",
+185
+],
+"ldpc2_BG2_reg_box_plus_tb": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_box_plus.cu",
+276
+],
+"ldpc2_BG2_reg_index_fp_desc_dyn": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_desc_dyn.cu",
+191
+],
+"ldpc2_BG2_reg_index_fp_desc_dyn_fp32": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_desc_dyn.cu",
+373
+],
+"ldpc2_BG2_reg_index_fp_desc_dyn_row_dep": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_desc_dyn_row_dep.cu",
+185
+],
+"ldpc2_BG2_reg_index_fp_desc_dyn_row_dep_tb": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_desc_dyn_row_dep.cu",
+272
+],
+"ldpc2_BG2_reg_index_fp_desc_dyn_small": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_desc_dyn_small.cu",
+177
+],
+"ldpc2_BG2_reg_index_fp_desc_dyn_small_fp32": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_desc_dyn_small.cu",
+415
+],
+"ldpc2_BG2_reg_index_fp_desc_dyn_small_tb": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_desc_dyn_small.cu",
+296
+],
+"ldpc2_BG2_reg_index_fp_desc_dyn_small_tb_fp32": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_desc_dyn_small.cu",
+535
+],
+"ldpc2_BG2_reg_index_fp_desc_dyn_tb": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_desc_dyn.cu",
+282
+],
+"ldpc2_BG2_reg_index_fp_desc_dyn_tb_fp32": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_desc_dyn.cu",
+464
+],
+"ldpc2_BG2_reg_index_fp_dp_desc_dyn_row_dep": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_dp_desc_dyn_row_dep.cu",
+201
+],
+"ldpc2_BG2_reg_index_fp_dp_desc_dyn_row_dep_fp32": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_dp_desc_dyn_row_dep.cu",
+384
+],
+"ldpc2_BG2_reg_index_fp_dp_desc_dyn_row_dep_tb": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_dp_desc_dyn_row_dep.cu",
+293
+],
+"ldpc2_BG2_reg_index_fp_dp_desc_dyn_row_dep_tb_fp32": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_dp_desc_dyn_row_dep.cu",
+475
+],
+"ldpc2_BG2_reg_index_fp_x2_desc_dyn": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_x2_desc_dyn.cu",
+190
+],
+"ldpc2_BG2_reg_index_fp_x2_desc_dyn_tb": [
+"cuPHY/src/cuphy/error_correction/ldpc2_reg_index_fp_x2_desc_dyn.cu",
+279
+],
+"ldpc2_BG2_shm_index_fp_desc_dyn": [
+"cuPHY/src/cuphy/error_correction/ldpc2_shm_index_fp_desc_dyn.cu",
+220
+],
+"ldpc2_BG2_shm_index_fp_desc_dyn_tb": [
+"cuPHY/src/cuphy/error_correction/ldpc2_shm_index_fp_desc_dyn.cu",
+313
+],
+"ldpc2_BG2_split_index_fp_x2_desc_dyn": [
+"cuPHY/src/cuphy/error_correction/ldpc2_split_index_fp_x2_desc_dyn.cu",
+266
+],
+"ldpc2_BG2_split_index_fp_x2_desc_dyn_tb": [
+"cuPHY/src/cuphy/error_correction/ldpc2_split_index_fp_x2_desc_dyn.cu",
+373
+],
+"ldpc2_bg_desc_kernel": [
+"cuPHY/src/cuphy/error_correction/ldpc2_desc.cuh",
+60
+],
+"ldpc2_desc_tb_kernel": [
+"cuPHY/src/cuphy/error_correction/ldpc2_desc.cuh",
+200
+],
+"ldpc2_kernel": [
+"cuPHY/src/cuphy/error_correction/ldpc2_kernel.cuh",
+34
+],
+"ldpc_cp_llr": [
+"cuPHY/src/cuphy/error_correction/attic/ldpc_ms_mka_flooding.cu",
+83
+],
+"ldpc_cp_llr_workspace": [
+"cuPHY/src/cuphy/error_correction/attic/ldpc_ms_mka_flooding_flat.cu",
+315
+],
+"ldpc_encode_in_bit_kernel": [
+"cuPHY/src/cuphy/error_correction/ldpc_encode.cu",
+208
+],
+"ldpc_flooding_bg1_multi_sm_precompute": [
+"cuPHY/src/cuphy/error_correction/attic/ldpc_cg.cu",
+25
+],
+"ldpc_flooding_bg1_multi_sm_precompute_no_et": [
+"cuPHY/src/cuphy/error_correction/attic/ldpc_cg.cu",
+390
+],
+"ldpc_flooding_bg1_sm": [
+"cuPHY/src/cuphy/error_correction/attic/ldpc_ms_small_flooding.cu",
+349
+],
+"ldpc_flooding_bg1_sm_precompute": [
+"cuPHY/src/cuphy/error_correction/attic/ldpc_ms_small_flooding.cu",
+73
+],
+"ldpc_flooding_multi_kernel_app": [
+"cuPHY/src/cuphy/error_correction/attic/ldpc_ms_mk_flooding.cu",
+245
+],
+"ldpc_flooding_multi_kernel_atomic": [
+"cuPHY/src/cuphy/error_correction/attic/ldpc_ms_mka_flooding.cu",
+151
+],
+"ldpc_flooding_multi_kernel_atomic_flat": [
+"cuPHY/src/cuphy/error_correction/attic/ldpc_ms_mka_flooding_flat.cu",
+340
+],
+"ldpc_flooding_multi_kernel_cnp": [
+"cuPHY/src/cuphy/error_correction/attic/ldpc_ms_mk_flooding.cu",
+170
+],
+"ldpc_flooding_multi_kernel_cnp_first": [
+"cuPHY/src/cuphy/error_correction/attic/ldpc_ms_mk_flooding.cu",
+95
+],
+"ldpc_hard_decision": [
+"cuPHY/src/cuphy/error_correction/attic/ldpc_ms_mka_flooding.cu",
+106
+],
+"ldpc_hard_decision_workspace": [
+"cuPHY/src/cuphy/error_correction/attic/ldpc_ms_mka_flooding_flat.cu",
+268
+],
+"ldpc_layered_unroll": [
+"cuPHY/src/cuphy/error_correction/attic/ldpc_ms_cta_shmem_layered_unroll.cu",
+593
+],
+"ldpc_ms_cta_flooding": [
+"cuPHY/src/cuphy/error_correction/attic/ldpc_ms_cta_flooding.cu",
+162
+],
+"ldpc_ms_cta_shmem_flooding": [
+"cuPHY/src/cuphy/error_correction/attic/ldpc_ms_cta_shmem_flooding.cu",
+389
+],
+"ldpc_ms_cta_simd_flooding": [
+"cuPHY/src/cuphy/error_correction/attic/ldpc_ms_cta_simd_flooding.cu",
+208
+],
+"ldpc_msa_layered_kernel": [
+"cuPHY/src/cuphy/error_correction/attic/ldpc_fast_layered.cu",
+339
+],
+"ldpc_msa_layered_with_spills_kernel": [
+"cuPHY/src/cuphy/error_correction/attic/ldpc_fast_layered.cu",
+542
+],
+"listPolarDecoderKernel": [
+"cuPHY/src/cuphy/polar_decoder/polar_decoder.cu",
+2340
+],
+"loop_kernel": [
+"cuPHY/src/cuphy/cuphy_kernel_util.cuh",
+394
+],
+"lwPfSchedulerKernel_noPrdSinrCompute": [
+"cuMAC/src/4T4R/multiCellScheduler.cuh",
+210
+],
+"lwPfSchedulerKernel_noPrdSinrLoad": [
+"cuMAC/src/4T4R/multiCellScheduler.cuh",
+212
+],
+"mcLayerSelKernel_ri": [
+"cuMAC/src/4T4R/multiCellLayerSel.cu",
+187
+],
+"mcLayerSelKernel_ri_harq": [
+"cuMAC/src/4T4R/multiCellLayerSel.cu",
+354
+],
+"mcLayerSelKernel_type0": [
+"cuMAC/src/4T4R/multiCellLayerSel.cu",
+63
+],
+"mcLayerSelKernel_type0_harq": [
+"cuMAC/src/4T4R/multiCellLayerSel.cuh",
+127
+],
+"mcLayerSelKernel_type1": [
+"cuMAC/src/4T4R/multiCellLayerSel.cu",
+131
+],
+"mcLayerSelKernel_type1_cfr": [
+"cuMAC/src/4T4R/multiCellLayerSel.cu",
+217
+],
+"mcLayerSelKernel_type1_cfr_harq": [
+"cuMAC/src/4T4R/multiCellLayerSel.cu",
+389
+],
+"mcLayerSelKernel_type1_harq": [
+"cuMAC/src/4T4R/multiCellLayerSel.cu",
+292
+],
+"mcsSelSinrRepKernel_type0_cqi": [
+"cuMAC/src/4T4R/mcsSelectionLUT.cu",
+72
+],
+"mcsSelSinrRepKernel_type0_wbSinr": [
+"cuMAC/src/4T4R/mcsSelectionLUT.cu",
+171
+],
+"mcsSelSinrRepKernel_type1_cqi": [
+"cuMAC/src/4T4R/mcsSelectionLUT.cu",
+276
+],
+"mcsSelSinrRepKernel_type1_wbSinr": [
+"cuMAC/src/4T4R/mcsSelectionLUT.cu",
+363
+],
+"memcpyRssi": [
+"cuPHY/src/cuphy/prach_receiver/prach_receiver.cu",
+687
+],
+"memsetRssi": [
+"cuPHY/src/cuphy/prach_receiver/prach_receiver.cu",
+649
+],
+"memset_kernel": [
+"cuPHY-CP/cuphydriver/src/common/generic_cuda_kernels.cu",
+389
+],
+"mm_kernel": [
+"cuMAC/examples/tensorCoreGEMM/cudaComplexMat.cu",
+94
+],
+"mm_kernel_optimized": [
+"cuMAC/examples/tensorCoreGEMM/cudaComplexMat.cu",
+132
+],
+"mmse_1D_time_frequency_kernel": [
+"cuPHY/src/cuphy/channel_est/channel_est.cu",
+193
+],
+"modulation_mapper": [
+"cuPHY/src/cuphy/modulation_mapper/modulation_mapper.cu",
+351
+],
+"muUePairAlgKernel": [
+"cuMAC/src/muMimoUserPairing/muMimoUserPairing.cu",
+594
+],
+"muUePairAlgKernel_memSharing": [
+"cuMAC/src/muMimoUserPairing/muMimoUserPairing.cu",
+817
+],
+"muUePairChanCorrKernel": [
+"cuMAC/src/muMimoUserPairing/muMimoUserPairing.cu",
+474
+],
+"muUePairChanCorrKernel_memSharing": [
+"cuMAC/src/muMimoUserPairing/muMimoUserPairing.cu",
+326
+],
+"multiCellBeamformKernel_rzf_dl": [
+"cuMAC/src/64T64R/multiCellBeamform.cuh",
+109
+],
+"multiCellMuUeGrpKernel_dl_dynPerTTI": [
+"cuMAC/src/64T64R/multiCellMuUeGrp.cu",
+709
+],
+"multiCellMuUeGrpKernel_dl_semiStatic": [
+"cuMAC/src/64T64R/multiCellMuUeGrp.cu",
+142
+],
+"multiCellMuUeGrpKernel_ul_dynPerTTI": [
+"cuMAC/src/64T64R/multiCellMuUeGrp.cu",
+1090
+],
+"multiCellMuUeSortKernel": [
+"cuMAC/src/64T64R/multiCellMuUeSort.cuh",
+101
+],
+"multiCellMuUeSortKernel_harq": [
+"cuMAC/src/64T64R/multiCellMuUeSort.cuh",
+104
+],
+"multiCellRRUeSelKernel": [
+"cuMAC/src/4T4R/roundRobinUeSel.cu",
+103
+],
+"multiCellRRUeSelKernel_harq": [
+"cuMAC/src/4T4R/roundRobinUeSel.cu",
+154
+],
+"multiCellSchedulerKernel_Asim_type1_svdPrdMmseIrc_rm": [
+"cuMAC/src/4T4R/multiCellScheduler.cuh",
+216
+],
+"multiCellSchedulerKernel_Asim_type1_svdPrdMmseIrc_rm_harq": [
+"cuMAC/src/4T4R/multiCellScheduler.cuh",
+221
+],
+"multiCellSchedulerKernel_Asim_type1_svdPrdMmse_rm": [
+"cuMAC/src/4T4R/multiCellScheduler.cuh",
+217
+],
+"multiCellSchedulerKernel_Asim_type1_svdPrdMmse_rm_harq": [
+"cuMAC/src/4T4R/multiCellScheduler.cuh",
+222
+],
+"multiCellSchedulerKernel_Asim_type1_wbSinr": [
+"cuMAC/src/4T4R/multiCellScheduler.cuh",
+218
+],
+"multiCellSchedulerKernel_Asim_type1_wbSinr_harq": [
+"cuMAC/src/4T4R/multiCellScheduler.cuh",
+223
+],
+"multiCellSchedulerKernel_half_noPrdMmseIrc": [
+"cuMAC/src/4T4R/multiCellScheduler.cuh",
+206
+],
+"multiCellSchedulerKernel_noPrdMmseIrc": [
+"cuMAC/src/4T4R/multiCellScheduler.cuh",
+191
+],
+"multiCellSchedulerKernel_svdMmseIrc": [
+"cuMAC/src/4T4R/multiCellScheduler.cuh",
+194
+],
+"multiCellSchedulerKernel_type1_NoPrdMmseIrc_cm": [
+"cuMAC/src/4T4R/multiCellScheduler.cuh",
+198
+],
+"multiCellSchedulerKernel_type1_NoPrdMmseIrc_rm": [
+"cuMAC/src/4T4R/multiCellScheduler.cuh",
+203
+],
+"multiCellSchedulerKernel_type1_svdPrdMmseIrc_UL": [
+"cuMAC/src/4T4R/multiCellScheduler.cuh",
+227
+],
+"multiCellSchedulerKernel_type1_svdPrdMmseIrc_cm": [
+"cuMAC/src/4T4R/multiCellScheduler.cuh",
+200
+],
+"multiCellSchedulerKernel_type1_svdPrdMmseIrc_harq_UL": [
+"cuMAC/src/4T4R/multiCellScheduler.cuh",
+229
+],
+"multiCellSinrCalKernel_noPrdMmseIrc_cm": [
+"cuMAC/src/tools/multiCellSinrCal.cuh",
+127
+],
+"multiCellSinrCalKernel_noPrdMmseIrc_rm": [
+"cuMAC/src/tools/multiCellSinrCal.cuh",
+131
+],
+"multiCellSinrCalKernel_svdPrdMmseIrc_cm": [
+"cuMAC/src/tools/multiCellSinrCal.cuh",
+128
+],
+"multiCellSinrCalKernel_svdPrdMmse_UL": [
+"cuMAC/src/tools/multiCellSinrCal.cuh",
+138
+],
+"multiCellSrsSchedulerKernel": [
+"cuMAC/src/multiCellSrsScheduler/multiCellSrsScheduler.cuh",
+349
+],
+"multiCellSrsSchedulerKernel_v0": [
+"cuMAC/src/multiCellSrsScheduler/multiCellSrsScheduler.cu",
+251
+],
+"multiCellSrsSchedulerKernel_v1": [
+"cuMAC/src/multiCellSrsScheduler/multiCellSrsScheduler.cu",
+335
+],
+"multiCellUeSelKernel": [
+"cuMAC/src/4T4R/multiCellUeSelection.cuh",
+98
+],
+"multiCellUeSelKernel_hetero": [
+"cuMAC/src/4T4R/multiCellUeSelection.cuh",
+99
+],
+"multiCellWideBandSinrCalKernel": [
+"cuMAC/src/tools/multiCellSinrCal.cuh",
+134
+],
+"noiseIntfEstKernel": [
+"cuPHY/src/cuphy/pusch_noise_intf_est/pusch_noise_intf_est.cu",
+1164
+],
+"noiseIntfEstNoDftSOfdmKernel": [
+"cuPHY/src/cuphy/pusch_noise_intf_est/pusch_noise_intf_est.cu",
+1140
+],
+"normalizeCRNGridsKernel": [
+"testBenches/chanModels/src/sls_chan_src/sls_chan_large_scale_GPU.cu",
+53
+],
+"normalizeTimeChan": [
+"testBenches/chanModels/src/fastFadingCommon.cu",
+1053
+],
+"ofdmDeMod_fft_kernel": [
+"testBenches/chanModels/src/ofdm_src/ofdmDemod.cu",
+36
+],
+"ofdmDeMod_fft_prach_kernel": [
+"testBenches/chanModels/src/ofdm_src/ofdmDemod.cu",
+142
+],
+"ofdmMod_ifft_kernel": [
+"testBenches/chanModels/src/ofdm_src/ofdmMod.cu",
+36
+],
+"order_kernel_cpu_init_comms_single_subSlot": [
+"cuPHY-CP/cuphydriver/src/uplink/order_cuda_kernels.cu",
+4100
+],
+"order_kernel_doca": [
+"cuPHY-CP/cuphydriver/src/uplink/order_cuda_kernels.cu",
+185
+],
+"order_kernel_doca_single": [
+"cuPHY-CP/cuphydriver/src/uplink/order_cuda_kernels.cu",
+588
+],
+"order_kernel_doca_single_srs": [
+"cuPHY-CP/cuphydriver/src/uplink/order_cuda_kernels.cu",
+4695
+],
+"order_kernel_doca_single_subSlot": [
+"cuPHY-CP/cuphydriver/src/uplink/order_cuda_kernels.cu",
+2732
+],
+"order_kernel_doca_single_subSlot_pingpong": [
+"cuPHY-CP/cuphydriver/src/uplink/order_cuda_kernels.cu",
+3210
+],
+"packet_memcpy_kernel": [
+"cuPHY-CP/aerial-fh-driver/lib/gpu_comm_doca.cu",
+145
+],
+"pfmSort": [
+"cuMAC-CP/examples/L2IntegrationExample/main.cu",
+107
+],
+"pfmSortKernel": [
+"cuMAC/src/pfmSort/pfmSort.cuh",
+127
+],
+"polSegDeRmDeItlKernel": [
+"cuPHY/src/cuphy/polar_seg_deRm_deItl/polar_seg_deRm_deItl.cu",
+111
+],
+"polarDecoderKernel": [
+"cuPHY/src/cuphy/polar_decoder/polar_decoder.cu",
+1269
+],
+"postProcessCsirsReMap": [
+"cuPHY/src/cuphy/pdsch_dmrs/pdsch_dmrs.cu",
+626
+],
+"prach_compute_correlation": [
+"cuPHY/src/cuphy/prach_receiver/prach_receiver.cu",
+55
+],
+"prach_compute_pdp": [
+"cuPHY/src/cuphy/prach_receiver/prach_receiver.cu",
+244
+],
+"prach_compute_rssi": [
+"cuPHY/src/cuphy/prach_receiver/prach_receiver.cu",
+511
+],
+"prach_search_pdp": [
+"cuPHY/src/cuphy/prach_receiver/prach_receiver.cu",
+348
+],
+"prep_prbs": [
+"cuPHY-CP/compression_decompression/comp_decomp_examples/QAM_test.cu",
+51
+],
+"prepareChestMlInputsKernel": [
+"cuPHY/src/cuphy/ch_est/ch_est_trtengine_pre_post_converion.cu",
+86
+],
+"prepare_crc_buffers": [
+"cuPHY/src/cuphy/crc/crc.cu",
+956
+],
+"print_complex_fp16": [
+"cuPHY-CP/cuphydriver/src/common/generic_cuda_kernels.cu",
+35
+],
+"print_hexbytes": [
+"cuPHY-CP/cuphydriver/src/common/generic_cuda_kernels.cu",
+46
+],
+"processInputKernel_freq": [
+"testBenches/chanModels/src/fastFadingCommon.cu",
+1704
+],
+"processInputKernel_freq_columnMajor": [
+"testBenches/chanModels/src/fastFadingCommon.cu",
+1779
+],
+"processInputKernel_time": [
+"testBenches/chanModels/src/fastFadingCommon.cu",
+1504
+],
+"pucchF0RxKernel": [
+"cuPHY/src/cuphy/pucch_F0_receiver/pucch_F0_receiver.cu",
+140
+],
+"pucchF1RxKernel": [
+"cuPHY/src/cuphy/pucch_F1_receiver/pucch_F1_receiver.cu",
+337
+],
+"pucchF234UciSegKernel": [
+"cuPHY/src/cuphy/pucch_F234_uci_seg/pucch_F234_uci_seg.cu",
+23
+],
+"pucchF2RxKernel": [
+"cuPHY/src/cuphy/pucch_F2_front_end/pucch_F2_front_end.cu",
+226
+],
+"pucchF3Csi2CtrlKernel": [
+"cuPHY/src/cuphy/pucch_F3_front_end/pucch_F3_csi2Ctrl.cu",
+21
+],
+"pucchF3RxKernel": [
+"cuPHY/src/cuphy/pucch_F3_front_end/pucch_F3_front_end.cu",
+326
+],
+"pucchF3SegLLRsKernel": [
+"cuPHY/src/cuphy/pucch_F3_front_end/pucch_F3_segLLRs.cu",
+75
+],
+"pucch_common_processing": [
+"cuPHY/src/cuphy/pucch_receiver/pucch_receiver.cu",
+324
+],
+"pucch_fused_per_ue_processing": [
+"cuPHY/src/cuphy/pucch_receiver/pucch_receiver.cu",
+207
+],
+"pucch_rm_decoder_0": [
+"cuPHY/src/cuphy/pucch_receiver/rm_decoder.cu",
+84
+],
+"pucch_rm_decoder_1": [
+"cuPHY/src/cuphy/pucch_receiver/rm_decoder.cu",
+147
+],
+"pucch_rm_decoder_2": [
+"cuPHY/src/cuphy/pucch_receiver/rm_decoder.cu",
+204
+],
+"puschRkhsChEstKernel": [
+"cuPHY/src/cuphy/ch_est/ch_est.cu",
+4396
+],
+"qam_to_bits": [
+"cuPHY/src/cuphy/pucch_receiver/pucch_receiver.cu",
+112
+],
+"receive_kernel_for_test_bench": [
+"cuPHY-CP/cuphydriver/src/uplink/order_cuda_kernels.cu",
+1394
+],
+"receive_process_kernel_for_test_bench": [
+"cuPHY-CP/cuphydriver/src/uplink/order_cuda_kernels.cu",
+2487
+],
+"restructure_rate_matching_output": [
+"cuPHY/src/cuphy/dl_rate_matching/dl_rate_matching.cu",
+2275
+],
+"rm_decoder_3": [
+"cuPHY/src/cuphy/pucch_receiver/rm_decoder.cu",
+268
+],
+"roundRobinSchedulerKernel_type1": [
+"cuMAC/src/4T4R/roundRobinScheduler.cuh",
+94
+],
+"roundRobinSchedulerKernel_type1_harq": [
+"cuMAC/src/4T4R/roundRobinScheduler.cuh",
+96
+],
+"rsrpMeasKernel_v1": [
+"cuPHY/src/cuphy/pusch_rssi/pusch_rssi.cu",
+700
+],
+"rsrpMeasKernel_v2": [
+"cuPHY/src/cuphy/pusch_rssi/pusch_rssi.cu",
+1381
+],
+"rsrpMeasWithoutPostEqMeasKernel_v1": [
+"cuPHY/src/cuphy/pusch_rssi/pusch_rssi.cu",
+1006
+],
+"rssiMeasKernel": [
+"cuPHY/src/cuphy/pusch_rssi/pusch_rssi.cu",
+229
+],
+"simplex_decoder_kernel": [
+"cuPHY/src/cuphy/simplex_decoder/simplex_decoder.cu",
+190
+],
+"singleCellSchedulerKernel_noPrdMmse": [
+"cuMAC/src/4T4R/singleCellScheduler.cu",
+93
+],
+"singleCellSchedulerKernel_svdMmse": [
+"cuMAC/src/4T4R/singleCellScheduler.cu",
+249
+],
+"singleCellSchedulerKernel_type1_NoPrdMmse": [
+"cuMAC/src/4T4R/singleCellScheduler.cu",
+447
+],
+"sinrMeasEarlyHarqKernel_v1": [
+"cuPHY/src/cuphy/pusch_rssi/pusch_rssi.cu",
+1196
+],
+"sleep_kernel": [
+"cuPHY/examples/common/util.cu",
+23
+],
+"smallChEstKernel": [
+"cuPHY/src/cuphy/ch_est/ch_est.cu",
+2974
+],
+"smallChEstNoDftSOfdmKernel": [
+"cuPHY/src/cuphy/ch_est/ch_est.cu",
+3645
+],
+"snapshot_ptp_clock": [
+"cuPHY/src/cuphy/cuphy_pti.cu",
+44
+],
+"snrBasedScalingKernel": [
+"cuMAC/examples/channInput/channInput_src/channInput.cu",
+805
+],
+"soft_demapper_kernel": [
+"cuPHY/src/cuphy/soft_demapper/soft_demapper.cu",
+94
+],
+"srsChEstKernel": [
+"cuPHY/src/cuphy/srs_chEst/srs_chEst.cu",
+3282
+],
+"srsChEstNormalizationKernel": [
+"cuPHY/src/cuphy/srs_chEst/srs_chEst.cu",
+2243
+],
+"srsRkhsChEstKernel": [
+"cuPHY/src/cuphy/srs_chEst/srs_chEst.cu",
+2369
+],
+"ssbModTfSigKernel": [
+"cuPHY/src/cuphy/ss/ss.cu",
+140
+],
+"sym_mod_util": [
+"cuPHY/src/cuphy/modulation_mapper/modulation_mapper.cu",
+675
+],
+"symbolWaitKernel": [
+"cuPHY/src/cuphy/pusch_start_kernels.cu",
+42
+],
+"tensor_elementwise_binary_bit_kernel": [
+"cuPHY/src/cuphy/tensor_elementwise.cu",
+256
+],
+"tensor_elementwise_binary_kernel": [
+"cuPHY/src/cuphy/tensor_elementwise.cu",
+169
+],
+"tensor_elementwise_unary_kernel": [
+"cuPHY/src/cuphy/tensor_elementwise.cu",
+122
+],
+"tensor_fill_kernel": [
+"cuPHY/src/cuphy/tensor_fill.cu",
+28
+],
+"tensor_reduction_kernel": [
+"cuPHY/src/cuphy/tensor_reduction.cu",
+162
+],
+"tensor_rng_kernel": [
+"cuPHY/src/cuphy/rng/rng.cu",
+278
+],
+"tensor_rng_kernel_bits": [
+"cuPHY/src/cuphy/rng/rng.cu",
+339
+],
+"tensor_tile_kernel": [
+"cuPHY/src/cuphy/tensor_tile.cu",
+38
+],
+"testSort": [
+"cuMAC/examples/gpuAlg/test.cu",
+26
+],
+"test_box_plus_kernel": [
+"cuPHY/test/error_correction/test_ldpc_internal_rc.cu",
+616
+],
+"test_box_plus_x2_kernel": [
+"cuPHY/test/error_correction/test_ldpc_internal_rc.cu",
+774
+],
+"test_kernel": [
+"cuPHY/examples/cupti_example/test_kernel.cu",
+29
+],
+"test_rc_fp16_kernel": [
+"cuPHY/test/error_correction/test_ldpc_internal_rc.cu",
+50
+],
+"test_rc_fp16_signs_dp_kernel": [
+"cuPHY/test/error_correction/test_ldpc_internal_rc.cu",
+959
+],
+"test_rc_fp16x2_kernel": [
+"cuPHY/test/error_correction/test_ldpc_internal_rc.cu",
+101
+],
+"test_soft_demapper_kernel": [
+"cuPHY/test/soft_demapper/test_soft_demapper_internal.cu",
+253
+],
+"uciOnPuschCsi2CtrlKernel": [
+"cuPHY/src/cuphy/uci_on_pusch/uciOnPusch_csi2Ctrl.cu",
+23
+],
+"uciOnPuschSegLLRs0Kernel": [
+"cuPHY/src/cuphy/uci_on_pusch/uciOnPusch_segLLRs0.cu",
+24
+],
+"uciOnPuschSegLLRs1Kernel": [
+"cuPHY/src/cuphy/uci_on_pusch/uciOnPusch_segLLRs1.cu",
+132
+],
+"uciOnPuschSegLLRs2Kernel": [
+"cuPHY/src/cuphy/uci_on_pusch/uciOnPusch_segLLRs2.cu",
+29
+],
+"ueDownSel4TrKernel": [
+"cuMAC/examples/network.cu",
+3515
+],
+"ueDownSel64TrKernel": [
+"cuMAC/examples/network.cu",
+3624
+],
+"ueGrpKernel_64T64R_chanCorr_v1": [
+"cuMAC/src/muMimoUserPairing/muMimoUserPairing.cu",
+1660
+],
+"uncompress": [
+"cuPHY-CP/compression_decompression/comp_decomp_examples/packets.cu",
+46
+],
+"uncompress_2blocks": [
+"cuPHY-CP/compression_decompression/comp_decomp_examples/packets.cu",
+64
+],
+"updateUeMapKernel": [
+"cuMAC/examples/multiCellMuMimoScheduler/mMimoNetwork.cu",
+866
+],
+"vecAddKernel": [
+"cuPHY/test/criticalPathCudaApi/criticalPathCudaApi.cu",
+106
+],
+"vecDivKernel": [
+"cuPHY/test/criticalPathCudaApi/criticalPathCudaApi.cu",
+124
+],
+"vecMulKernel": [
+"cuPHY/test/criticalPathCudaApi/criticalPathCudaApi.cu",
+118
+],
+"vecSqrKernel": [
+"cuPHY/test/criticalPathCudaApi/criticalPathCudaApi.cu",
+130
+],
+"vecSubKernel": [
+"cuPHY/test/criticalPathCudaApi/criticalPathCudaApi.cu",
+112
+],
+"warmup": [
+"cuPHY-CP/aerial-fh-driver/lib/gpu_comm_doca.cu",
+79
+],
+"warmup_kernel": [
+"cuPHY-CP/cuphydriver/src/common/generic_cuda_kernels.cu",
+126
+],
+"windowedChEstKernel": [
+"cuPHY/src/cuphy/ch_est/ch_est.cu",
+396
+],
+"windowedChEstNoDftSOfdmKernel": [
+"cuPHY/src/cuphy/ch_est/ch_est.cu",
+426
+],
+"windowedChEstPreNoDftSOfdmKernel": [
+"cuPHY/src/cuphy/ch_est/ch_est.cu",
+1815
+],
+"wmma_gemm_a_col_major_b_col_major": [
+"cuMAC/examples/tensorCoreGEMM/tensorComplexMat.cu",
+334
+],
+"wmma_gemm_complex_a_col_major_b_col_major": [
+"cuMAC/examples/tensorCoreGEMM/tensorComplexMat.cu",
+112
+],
+"zero_memset_kernel": [
+"cuPHY/src/cuphy/pdsch_dmrs/pdsch_dmrs.cu",
+807
+]
+}

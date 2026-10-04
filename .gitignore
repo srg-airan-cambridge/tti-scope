@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# TTI-Scope session stores and caches (built from captures; never commit)
+*.tti
+*.tti-journal
+
+# Captures and exports
+*.sqlite
+*.nsys-rep
+*.perf.data
+
+# Local tool state
+.claude/
+.omc/
+.DS_Store
