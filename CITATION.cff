@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use TTI-Scope in your research, please cite it as below."
+type: software
+title: "TTI-Scope: A 5G TTI-aware Nsys Visualisation Tool for Practical AI-RAN"
+abstract: >-
+  TTI-Scope visualises the CUDA kernel launch patterns of NVIDIA Aerial
+  CUDA-Accelerated RAN on the DU's own SFN.slot grid, from Nsight Systems
+  captures and Aerial logs, for co-located 5G and LLM inference (AI-RAN).
+authors:
+  - family-names: Mitra
+    given-names: "R. N."
+    affiliation: "Systems Research Group, University of Cambridge, UK"
+repository-code: "https://github.com/srg-airan-cambridge/tti-scope"
+url: "https://github.com/srg-airan-cambridge/tti-scope"
+license: MIT
+date-released: "2026-10-04"
+keywords:
+  - AI-RAN
+  - 5G
+  - NVIDIA Aerial
+  - CUDA
+  - Nsight Systems
+  - GPU profiling
+  - TTI
