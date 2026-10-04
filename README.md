@@ -34,6 +34,34 @@ the University of Cambridge, UK, 2026. Anthropic's Claude Code has been used in
 coding various functions, implementing features for the GUIs, and for testing
 TTI-Scope against logs.
 
+## Citation
+
+If you use TTI-Scope in your research, please cite:
+
+```bibtex
+@software{mitra2026ttiscope,
+  author       = {Mitra, R. N.},
+  title        = {{TTI-Scope}: A 5G TTI-aware Nsys Visualisation Tool for Practical {AI-RAN}},
+  year         = {2026},
+  publisher    = {GitHub},
+  organization = {Systems Research Group, University of Cambridge},
+  url          = {https://github.com/srg-airan-cambridge/tti-scope},
+  note         = {Software repository}
+}
+```
+
+For bibliography styles without `@software`, use:
+
+```bibtex
+@misc{mitra2026ttiscope,
+  author       = {Mitra, R. N.},
+  title        = {{TTI-Scope}: A 5G TTI-aware Nsys Visualisation Tool for Practical {AI-RAN}},
+  year         = {2026},
+  howpublished = {\url{https://github.com/srg-airan-cambridge/tti-scope}},
+  note         = {Systems Research Group, University of Cambridge. Software repository}
+}
+```
+
 ## Licence
 
 MIT — see [LICENSE](LICENSE).
